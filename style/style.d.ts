@@ -1,4 +1,4 @@
-export { Font, CSS, Color, Style };
+export { Font, CSS, Color, Style as default };
 
 declare namespace Style {
     export { calculateLuminance }
