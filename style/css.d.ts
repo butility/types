@@ -11,6 +11,9 @@ declare namespace CSS {
 interface StyleResult {
     cssText: string;
     styleObject: { [selector: string]: { [property: string]: string } };
+    inlineCss: { [selector: string]: string };
+    camelCaseObject: { [selector: string]: { [property: string]: string } };
+    hyphenatedObject: { [selector: string]: { [property: string]: string } };
 }
 
 export function addStyles(elements: HTMLElement | HTMLElement[], styles: CSSStyleDeclaration): void;
