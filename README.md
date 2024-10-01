@@ -24,4 +24,4 @@ Contributions are welcome! Please ensure any changes to type definitions are acc
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](LICENSE.md).
